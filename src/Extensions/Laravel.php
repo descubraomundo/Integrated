@@ -1,10 +1,10 @@
 <?php
 
-namespace Laracasts\Integrated\Extensions;
+namespace DMI\Integrated\Extensions;
 
-use Laracasts\Integrated\Extensions\Traits\LaravelTestCase;
+use DMI\Integrated\Extensions\Traits\LaravelTestCase;
 use Illuminate\Foundation\Testing\TestCase;
-use Laracasts\Integrated\Emulator;
+use DMI\Integrated\Emulator;
 
 abstract class Laravel extends TestCase implements Emulator
 {

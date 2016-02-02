@@ -1,8 +1,8 @@
 <?php
 
-namespace Laracasts\Integrated;
+namespace DMI\Integrated;
 
-use Laracasts\Integrated\Str;
+use DMI\Integrated\Str;
 use ReflectionClass;
 
 class AnnotationReader

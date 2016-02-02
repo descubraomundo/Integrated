@@ -1,5 +1,5 @@
 <?php
 
-namespace Laracasts\Integrated;
+namespace DMI\Integrated;
 
 class IntegratedException extends \Exception {}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Integrated\Database;
+namespace DMI\Integrated\Database;
 
 class Adapter
 {
@@ -99,7 +99,7 @@ class Adapter
     protected function execute($query)
     {
         $query->execute($this->bindings);
-        
+
         $this->bindings = [];
         $this->wheres   = [];
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Laracasts\Integrated\Extensions\Traits;
+namespace DMI\Integrated\Extensions\Traits;
 
-use Laracasts\Integrated\Str;
+use DMI\Integrated\Str;
 
 trait ApiRequests
 {

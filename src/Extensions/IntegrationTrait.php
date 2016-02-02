@@ -1,14 +1,14 @@
 <?php
 
-namespace Laracasts\Integrated\Extensions;
+namespace DMI\Integrated\Extensions;
 
 use BadMethodCallException;
 use InvalidArgumentException;
-use Laracasts\Integrated\Str;
-use Laracasts\Integrated\File;
+use DMI\Integrated\Str;
+use DMI\Integrated\File;
 use Symfony\Component\DomCrawler\Form;
-use Laracasts\Integrated\AnnotationReader;
-use Laracasts\Integrated\IntegratedException;
+use DMI\Integrated\AnnotationReader;
+use DMI\Integrated\IntegratedException;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use PHPUnit_Framework_ExpectationFailedException as PHPUnitException;
 

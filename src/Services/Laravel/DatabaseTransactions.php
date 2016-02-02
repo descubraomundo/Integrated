@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Integrated\Services\Laravel;
+namespace DMI\Integrated\Services\Laravel;
 
 trait DatabaseTransactions
 {

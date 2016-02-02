@@ -1,10 +1,10 @@
 <?php
 
-namespace Laracasts\Integrated\Extensions\Traits;
+namespace DMI\Integrated\Extensions\Traits;
 
-use Laracasts\Integrated\IntegratedException;
-use Laracasts\Integrated\Database\Connection;
-use Laracasts\Integrated\Database\Adapter;
+use DMI\Integrated\IntegratedException;
+use DMI\Integrated\Database\Connection;
+use DMI\Integrated\Database\Adapter;
 
 trait WorksWithDatabase
 {
@@ -54,7 +54,7 @@ trait WorksWithDatabase
         // If the user has imported the Laravel application trait, we can use Laravel to
         // work with the database.
 
-        if (isset($this->app) || in_array('Laracasts\Integrated\Services\Laravel\Application', class_uses($this))) {
+        if (isset($this->app) || in_array('DMI\Integrated\Services\Laravel\Application', class_uses($this))) {
             return $this->app['db']->table($table)->where($data)->count();
         }
 

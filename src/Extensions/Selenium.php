@@ -1,15 +1,15 @@
 <?php
 
-namespace Laracasts\Integrated\Extensions;
+namespace DMI\Integrated\Extensions;
 
 use PHPUnit_Framework_ExpectationFailedException as PHPUnitException;
-use Laracasts\Integrated\Extensions\Traits\WorksWithDatabase;
-use Laracasts\Integrated\JavaScriptAwareEmulator;
-use Laracasts\Integrated\IntegratedException;
-use Laracasts\Integrated\Database\Connection;
-use Laracasts\Integrated\Database\Adapter;
+use DMI\Integrated\Extensions\Traits\WorksWithDatabase;
+use DMI\Integrated\JavaScriptAwareEmulator;
+use DMI\Integrated\IntegratedException;
+use DMI\Integrated\Database\Connection;
+use DMI\Integrated\Database\Adapter;
 use WebDriver\Exception\NoSuchElement;
-use Laracasts\Integrated\Emulator;
+use DMI\Integrated\Emulator;
 use WebDriver\Exception\CurlExec;
 use InvalidArgumentException;
 use WebDriver\WebDriver;

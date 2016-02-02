@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Integrated;
+namespace DMI\Integrated;
 
 interface Emulator
 {

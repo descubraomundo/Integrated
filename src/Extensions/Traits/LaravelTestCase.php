@@ -1,13 +1,13 @@
 <?php
 
-namespace Laracasts\Integrated\Extensions\Traits;
+namespace DMI\Integrated\Extensions\Traits;
 
 use Symfony\Component\DomCrawler\Form;
 use Symfony\Component\DomCrawler\Crawler;
-use Laracasts\Integrated\Extensions\IntegrationTrait;
-use Laracasts\Integrated\Extensions\Traits\ApiRequests;
+use DMI\Integrated\Extensions\IntegrationTrait;
+use DMI\Integrated\Extensions\Traits\ApiRequests;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Laracasts\Integrated\Extensions\Traits\WorksWithDatabase;
+use DMI\Integrated\Extensions\Traits\WorksWithDatabase;
 use PHPUnit_Framework_ExpectationFailedException as PHPUnitException;
 
 trait LaravelTestCase

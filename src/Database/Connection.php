@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Integrated\Database;
+namespace DMI\Integrated\Database;
 
 use Exception;
 use PDO;
